@@ -24,6 +24,7 @@ public class AddOldBook extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try {
+			//System.out.println("inside AddOldBook");
 			String bookName = req.getParameter("bname");
 			String author = req.getParameter("author");
 			String price = req.getParameter("price");
