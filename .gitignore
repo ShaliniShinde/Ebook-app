@@ -1,0 +1,25 @@
+# Ignore Eclipse and IntelliJ IDEA project files
+.classpath
+.project
+.target/
+.settings/
+
+.idea/
+*.iml
+
+# Ignore build output directories
+/target/
+/out/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
